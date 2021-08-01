@@ -32,7 +32,8 @@ jobs:
           node-version: ${{ matrix.node }}
       - run: npm install
       - run: npm test
-      - run: npm build
+      - run: npm run build
+
 
       # Runs a single command using the runners shell
       - name: Setup welcome
